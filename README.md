@@ -11,7 +11,7 @@ Script to change the MAC address on linux.
 Python 2 or 3
 
 ### Example
-```
+```Bash
 python mac_changer.py -i <interface> -n <new_mac_address>
 ```
 ## network_scanner.py
@@ -21,6 +21,6 @@ Script to scan for connected devices
 Python 2 or 3
 
 ### Example
-```
+```Bash
 python network_scanner.py -r <ip_range>
 ```
