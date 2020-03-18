@@ -25,7 +25,7 @@ Python 2 or 3
 python network_scanner.py -r <ip_range>
 ```
 ### arp_spoofer_v2.py
-Script that allows you to perform ARP spoofing
+Script that allows you to perform ARP spoofing written in Python 2
 
 #### Use
 Python 2
@@ -35,7 +35,7 @@ Python 2
 python arp_spoofer_v2.py -g <gatway_ip> -v <victim_ip>
 ```
 ### arp_spoofer_v3.py
-Script that allows you to perform ARP spoofing
+Script that allows you to perform ARP spoofing written in Python 3
 
 #### Use
 Python 3
