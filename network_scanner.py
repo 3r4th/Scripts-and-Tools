@@ -31,7 +31,7 @@ def print_result(results_list):
         for client in results_list:
             print(client["ip"] + "\t" + client["mac"])
     else:
-        print("[!] No connected machine detected, check you IP range")
+        print("[!] No connected machine detected, check your IP range")
 
 
 if __name__ == "__main__":
