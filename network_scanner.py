@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+__author__ = "3r4th"
+
 import scapy.all as scapy
 import optparse
 
