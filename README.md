@@ -44,3 +44,14 @@ Python 3
 ```Bash
 python3 arp_spoofer_v3.py -g <gatway_ip> -v <victim_ip>
 ```
+### packet_sniffer.py
+Script to sniff and analyze data. You can use it with arp_spoofer to perform a MITM attack.
+
+#### Use
+Python 2 or 3
+
+#### Example
+```Bash
+python packet_sniffer.py -i <interface>
+```
+
