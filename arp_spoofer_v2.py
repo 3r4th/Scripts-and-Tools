@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+
+__author__ = "3r4th"
+
 import optparse
 import sys
 import time
