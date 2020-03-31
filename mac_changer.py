@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+__author__ = "3r4th"
+
 import subprocess
 import optparse
 import re
