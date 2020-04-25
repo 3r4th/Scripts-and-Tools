@@ -53,9 +53,7 @@ if __name__ == "__main__":
     ack_list = []
     options = get_arguments()
     try:
-        # subprocess.call("iptables -I FORWARD -j NFQUEUE --queue-num 0", shell=True)
-        subprocess.call("iptables -I INPUT -j NFQUEUE --queue-num 0", shell=True)
-        subprocess.call("iptables -I OUTPUT -j NFQUEUE --queue-num 0", shell=True)
+        subprocess.call("iptables -I FORWARD -j NFQUEUE --queue-num 0", shell=True)
         print("[+] Intercepting files Started ...")
         queue = netfilterqueue.NetfilterQueue()
         queue.bind(0, process_packet)
