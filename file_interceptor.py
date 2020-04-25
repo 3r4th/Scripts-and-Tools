@@ -12,7 +12,7 @@ def get_arguments():
     parser = optparse.OptionParser()
     parser.add_option("-e", "--file-extension", dest="file_extension", help="Type of the file to intercept, ex : .exe "
                                                                             "or .pdf")
-    parser.add_option("-f", "--file-link", dest="file_link", help="Link of the file which will replace the one "
+    parser.add_option("-f", "--file-link", dest="file_link", help="Link to the file which will replace the one "
                                                                   "intercepted, ex : http://192.168.1.5/evil.exe")
     (options, arguments) = parser.parse_args()
     if not options.file_extension:
