@@ -109,5 +109,5 @@ python arp_spoofer_v2.py -g <gatway_ip> -v <victim_ip>
 ```
 ##### In another terminal, run : 
 ```Bash
-python code_injector
+python code_injector.py
 ```
